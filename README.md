@@ -272,14 +272,3 @@ Press Ctrl-C to Exit...
 ```
 
 * * *
-
-
-
-If you found this script and masternode setup guide helpful...
-
-...please donate qbase to: **RCdYg5yq3YfymwrZi8EMBSFHxcwR7acniS**
-
-or just come to our pool to mine qbase: https://fasterpool.com
-We have 0% fees and hourly payouts!
-
---Allroad

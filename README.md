@@ -34,7 +34,7 @@ git clone https://github.com/Qbase-Foundation/Masternode-Setup
 
 __NOTE:__ in case if you will need to re-download this setup script or binaries from github repo, use the following git command:
 ```bash
-cd ~/MasternodeSetup
+cd ~/Masternode-Setup
 git reset --hard
 git pull
 ```
@@ -42,7 +42,7 @@ git pull
 **5) Run the install script** which will install and configure your masternode with all necessary options.
 
 ```bash
-cd ~/MasternodeSetup
+cd ~/Masternode-Setup
 sudo bash qbase-setup.sh
 ```
 __NOTE:__ This process may take anywhere from 5 to 20 minutes, depending on your VPS HW specs. If it's not your very first ever masternode setup, you may want to speed up the process by doing things in parallel. While the MN setup script is running on the VPS, you can spend this time getting ready to start your new masternode from your Hot Wallet (also referred to as Control Wallet) by following instructions in next step (6).

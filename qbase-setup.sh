@@ -134,12 +134,12 @@ cd ~
 stop_daemon
 
 # Deploy binaries to /usr/bin
-sudo cp MasternodeSetup/qbase-v1.0.2.1/qbase* /usr/bin/
-sudo chmod 755 -R ~/MasternodeSetup
+sudo cp Masternode-Setup/qbase-v1.0.2.1/qbase* /usr/bin/
+sudo chmod 755 -R ~/Masternode-Setup
 sudo chmod 755 /usr/bin/qbase*
 
 # Deploy masternode monitoring script
-cp ~/MasternodeSetup/nodemon.sh /usr/local/bin
+cp ~/Masternode-Setup/nodemon.sh /usr/local/bin
 sudo chmod 711 /usr/local/bin/nodemon.sh
 
 #Create qbase datadir

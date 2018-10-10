@@ -127,14 +127,14 @@ fi
 #Installing Daemon
 cd ~
 #sudo rm Qbase-Linux.tar.gz
-#wget https://github.com/Qbase-Core/Qbase/releases/download/v1.0.2.1/Qbase-Linux.tar.gz
+#wget https://github.com/Qbase-Core/Qbase/releases/download/v2.0.0.0/Qbase-Linux.tar.gz
 #sudo tar -xvf Qbase-Linux.tar.gz --strip-components 1 --directory /usr/bin
 #sudo rm Qbase-Linux.tar.gz
 
 stop_daemon
 
 # Deploy binaries to /usr/bin
-sudo cp Masternode-Setup/qbase-v1.0.2.1/qbase* /usr/bin/
+sudo cp Masternode-Setup/qbase-v2.0.0.0/qbase* /usr/bin/
 sudo chmod 755 -R ~/Masternode-Setup
 sudo chmod 755 /usr/bin/qbase*
 
